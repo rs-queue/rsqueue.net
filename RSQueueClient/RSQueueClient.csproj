@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>RSQueueClient</PackageId>
     <Version>1.0.0</Version>
     <Authors>RSQueue</Authors>
@@ -12,7 +12,12 @@
     <PackageTags>queue;message-queue;rsqueue;client</PackageTags>
     <RepositoryUrl>https://github.com/yourusername/rsqueue</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 
 </Project>
