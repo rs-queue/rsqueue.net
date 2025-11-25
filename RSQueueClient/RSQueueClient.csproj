@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>RSQueueClient</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>RSQueue</Authors>
+    <Description>.NET client library for RSQueue message queue service</Description>
+    <PackageTags>queue;message-queue;rsqueue;client</PackageTags>
+    <RepositoryUrl>https://github.com/yourusername/rsqueue</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+
+</Project>
